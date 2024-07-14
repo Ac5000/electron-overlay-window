@@ -32,9 +32,9 @@
               '-lxcb', '-lpthread'
             ]
           },
-          'cflags': ['-std=c99', '-pedantic', '-Wall', '-pthread'],
-      	  'sources': [
-            'src/lib/x11.c',
+          'cflags': ['-std=c99', '-pedantic-errors','-fpermissive', '-Wall', '-pthread'],
+              'sources': [
+                'src/lib/x11.c',
           ]
         }],
         ['OS=="mac"', {
