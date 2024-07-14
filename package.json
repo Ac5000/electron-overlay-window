@@ -33,15 +33,15 @@
     "prebuilds"
   ],
   "devDependencies": {
-    "@types/node": "18.x.x",
-    "@types/throttle-debounce": "5.x.x",
-    "electron": "24.x.x",
-    "prebuildify": "5.x.x",
-    "typescript": "5.x.x"
+    "@types/node": "20.14.10",
+    "@types/throttle-debounce": "5.0.2",
+    "electron": "31.2.0",
+    "prebuildify": "6.0.1",
+    "typescript": "^5.5.3"
   },
   "dependencies": {
-    "node-gyp-build": "4.x.x",
-    "throttle-debounce": "5.x.x"
+    "node-gyp-build": "4.8.1",
+    "throttle-debounce": "5.0.2"
   },
   "gypfile": true,
   "engines": {
